@@ -42,6 +42,7 @@ This project is a Qt application that demonstrates how to create and manipulate 
 After building the project, run the executable:
 ```sh
 ./qmlchart
+```
 
 ## Usage
 
