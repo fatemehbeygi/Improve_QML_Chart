@@ -47,5 +47,5 @@ After building the project, run the executable:
 ## Usage
 
  - Click the "Generate" button to populate the chart with random data points.
- -Use the "+" and "-" buttons to zoom in and out on the X and Y axes.
- -Click the "⟳" button to reset the axes to their default ranges.
+ - Use the "+" and "-" buttons to zoom in and out on the X and Y axes.
+ - Click the "⟳" button to reset the axes to their default ranges.
