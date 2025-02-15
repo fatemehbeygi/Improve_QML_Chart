@@ -27,7 +27,7 @@ This project is a Qt application that demonstrates how to create and manipulate 
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/fatemehbeygi/Improve_QML_Chart.git
     cd ImproveQMLChart
     ```
 
