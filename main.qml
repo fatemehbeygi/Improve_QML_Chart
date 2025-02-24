@@ -142,11 +142,50 @@ Window {
             }
 
         }
-        Button{
+
+        RowLayout{
             Layout.alignment: Qt.AlignRight
-            text: "Generate"
-            onClicked: {
-                databuilder.paintChart(lineSerie, pointsNo)
+
+            TabBar{
+                id: tabbar
+                currentIndex: 3
+
+                TabButton{
+                    width: 100
+                    text: "1,000"
+                    onClicked: {
+                        pointsNo = 1000
+                        databuilder.paintChart(lineSerie, pointsNo)
+                    }
+
+                }
+                TabButton{
+                    width: 100
+                    text: "10,000"
+                    onClicked: {
+                        pointsNo = 10000
+                        databuilder.paintChart(lineSerie, pointsNo)
+                    }
+
+                }
+                TabButton{
+                    width: 100
+                    text: "100,000"
+                    onClicked: {
+                        pointsNo = 100000
+                        databuilder.paintChart(lineSerie, pointsNo)
+                    }
+
+                }
+
+                TabButton{
+                    width: 100
+                    leftInset: 10
+                    text: "Clear"
+                    onClicked: {
+                        lineSerie.clear()
+                    }
+                }
             }
         }
     }
