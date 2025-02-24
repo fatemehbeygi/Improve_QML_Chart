@@ -7,6 +7,7 @@ This project is a Qt application that demonstrates how to create and manipulate 
 - Dynamic chart generation with random data points
 - Interactive controls to zoom in/out and reset the chart
 - Integration of QML and C++ for efficient data handling
+- Additional buttons to set data points and clear the chart
 
 ## Project Structure
 
@@ -46,6 +47,7 @@ After building the project, run the executable:
 
 ## Usage
 
- - Click the "Generate" button to populate the chart with random data points.
- - Use the "+" and "-" buttons to zoom in and out on the X and Y axes.
- - Click the "⟳" button to reset the axes to their default ranges.
+- Click the "Generate" button to populate the chart with random data points.
+- Use the "+" and "-" buttons to zoom in and out on the X and Y axes.
+- Click the "⟳" button to reset the axes to their default ranges.
+- Use the buttons to set the number of data points (1,000, 10,000, 100,000) and clear the chart.
